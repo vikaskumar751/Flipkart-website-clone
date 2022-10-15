@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    height:9vh;
+    color: white;
+    background-color: rgb(96, 96, 96);
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #2455f4;
+    font-family: 'Lato', sans-serif;
+    height: 58px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display:flex  ;
+    width: 22px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    height: 58px;
+     
+}
+header nav li{
+    list-style: none;
+    padding: 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    
+}
+a:hover {
+    color: rgb(127, 123, 123);
+    background-color: rgb(34, 65, 118);
+    border-radius: 3px;
+    font-weight: bold;
+  }
+nav img{
+    height: 31px;
+    padding-top: 14px;
+    padding-left: 39px;
+    padding-right: 30px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.search input{
+    width: 500px;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+}
+ div .btn{
+    font-family: 'Lato', sans-serif;
+    padding: 8px 35px;
+    margin-left: 39px;
+    border-radius: 8px;
+}
+ div .btn:hover{
+    color: rgb(94, 90, 90);
+     font-weight: bold;
+
+}
+.more{
+    display: flex;
+    padding: 3px 5px;
+    margin: 8px;
+    text-align: center;
+    margin-left: 30px;
+    color:rgb(135, 128, 128); 
+    
+   
+}
+select{
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+
+}
+  select:hover{
+    color: rgb(214, 202, 202);
+  }
+.more option{
+    text-align: center;
+    border-radius: 8px;
+}
+.cart{
+display: flex;
+border-radius: 8px;
+}
+.sticky{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #2455f4;
+
+}
+ .container{
+    padding-left: 82px;
+}
+.option img{
+    padding: 0px 8px ;
+}
+.caption{
+    display: flex;
+
+}
+.caption figcaption{
+    margin:0px 45px;
+}
+.slider{
+    display: flex;
+}
+.slider img{
+    width: 95%;
+    margin-top: 25px;
+}
+.monsoon{
+    display: flex;
+}
+.monsoon img{
+    padding: 27px;
+}
+.last{
+    display: flex;
+
+}
+.last img{
+    height:325px;
+    width:96%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
